@@ -7,7 +7,7 @@
     <!--bootstarp link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <!--font awesome link-->
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
     <!--google fonts link-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
     
@@ -18,7 +18,7 @@
 
   <body>
     <header class="jumbotron"> <!--A jumbotron indicates a big box for calling extra attention to some special content or information-->
-      <h1 class="display-3">Work Day Scheduler></h1>
+      <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
@@ -27,113 +27,113 @@
     <section class="text-center" id="notify">
       <div class="container">  <!--this container class will give some margins left and right to the row -->
         <!-- row-one-starts -->
-        <div id="hours" class="row time-block" data-time="0"> <!--//add a time block-->
+        <div class="row time-block" data-time="9"> 
           <!-- col-one -->
           <div class="col-md-1 hour" id="localTime">
           9:00am
           </div>
           <!-- col-two -->
-          <input class="list col-md-10 bg-secondary" id="timer">
+          <input class="input-col col-md-10" placeholder="Add Your Event">
           <!-- col-three -->
-          <button class="saveBtn col-md-1 bg-primary"></button>
+          <button class="saveBtn col-md-1 bg-primary"><i class="fa-solid fa-floppy-disk fa-xl"></i></button>
         </div>
           
         <!-- row-two-start -->
-        <div id="hous" class="row time-block" data-time="10">
+        <div class="row time-block" data-time="10">
           <!-- col-1 -->
           <div class="col-md-1 hour" id="localTime">
           10:00am
           </div>
           <!-- col-2 -->
-          <input class="col-md-10 bg-secondary" id="timer">
+          <input class="input-col col-md-10" placeholder="Add Your Event">
              <!-- col-3 -->
-             <button class="saveBtn col-md-1 bg-primary"></button>
+             <button class="saveBtn col-md-1 bg-primary"><i class="fa-solid fa-floppy-disk fa-xl"></i></button>
         </div>
 
         <!-- row-three-start -->
-        <div id="hour-3" class="row time-block" data-time="11">
+        <div class="row time-block" data-time="11">
           <!-- col-1 -->
           <div class="col-md-1 hour"  id="localTime">
           11:00am
           </div>
           <!-- col-2 -->
-         <input class="list col-md-10 bg-secondary" id="timer">
+          <input class="input-col col-md-10"  placeholder="Add Your Event">
           <!-- col-3 -->
-          <button class="saveBtn col-md-1 bg-primary"></button>
+          <button class="saveBtn col-md-1 bg-primary"><i class="fa-solid fa-floppy-disk fa-xl"></i></button>
         </div>
 
 
         <!-- row-four-start -->
-        <div id="hour-4" class="row time-block">
+        <div id="hour-12" class="row time-block" data-time="12">
           <!-- col-1 -->
-          <div class="col-md-1 hour" id="localTime" data-time="12">
+          <div class="col-md-1 hour" id="localTime">
           12:00pm
           </div>
           <!-- col-2 -->
-         <input class="col-md-10 bg-secondary" id="timer">
+          <input class="input-col col-md-10"  placeholder="Add Your Event">
           <!-- col-3 -->
-          <button class="saveBtn col-md-1 bg-primary"></button>
+          <button class="saveBtn col-md-1 bg-primary"><i class="fa-solid fa-floppy-disk fa-xl"></i></button>
         </div>
 
         <!-- row-five-start -->
-        <div id="hour-4" class="row time-block" data-time="1">
+        <div id="hour-1" class="row time-block" data-time="13">
           <!-- col-1 -->
           <div class="col-md-1 hour" id="localTime">
           1:00pm
           </div>
           <!-- col-2 -->
-         <input class="col-md-10 bg-secondary" id="timer">
+          <input class="input-col col-md-10"  placeholder="Add Your Event">
           <!-- col-3 -->
-          <button class="saveBtn col-md-1 bg-primary"></button>
+          <button class="saveBtn col-md-1 bg-primary"><i class="fa-solid fa-floppy-disk fa-xl"></i></button>
         </div>
 
         <!-- row-six-start -->
-        <div id="hour-6" class="row time-block" data-time="2">
+        <div id="hour-2" class="row time-block" data-time="14">
           <!-- col-1 -->
           <div class="col-md-1 hour" id="localTime">
           2:00pm
           </div>
           <!-- col-2 -->
-         <input class="col-md-10 bg-secondary" id="timer">
+          <input class="input-col col-md-10"  placeholder="Add Your Event">
           <!-- col-3 -->
-          <button class="saveBtn col-md-1 bg-primary"></button>
+          <button class="saveBtn col-md-1 bg-primary"><i class="fa-solid fa-floppy-disk fa-xl"></i></button>
         </div>
 
 
         <!-- row-seven-start -->
-        <div id="hour-7" class="row time-block" data-time="3">
+        <div id="hour-3" class="row time-block" data-time="15">
           <!-- col-1 -->
           <div class="col-md-1 hour"  id="localTime">
             3:00pm
           </div>
           <!-- col-2 -->
-         <input class="col-md-10 bg-secondary" id="timer">
+          <input class="input-col col-md-10"  placeholder="Add Your Event">
           <!-- col-3 -->
-          <button class="saveBtn col-md-1 bg-primary"></button>
+          <button class="saveBtn col-md-1 bg-primary"><i class="fa-solid fa-floppy-disk fa-xl"></i></button>
         </div>
 
         <!-- row-eight -->
-        <div id="hour-8" class="row time-block" data-time="4">
+        <div id="hour-4" class="row time-block" data-time="16">
           <!-- col-1 -->
           <div class="col-md-1 hour"  id="localTime">
             4:00pm
           </div>
           <!-- col-2 -->
-         <input class="col-md-10 bg-secondary" id="timer">
+          <input class="input-col col-md-10"  placeholder="Add Your Event">
           <!-- col-3 -->
-          <button class="saveBtn col-md-1 bg-primary"></button>
+          <button class="saveBtn col-md-1 bg-primary"><i class="fa-solid fa-floppy-disk fa-xl"></i></button>
         </div>
 
-        <!-- row-three -->
-        <div id="hour-9" class="row time-block" data-time="5">
+        <!-- row-nine -->
+        <div class="row time-block" data-time="17">
           <!-- col-1 -->
           <div class="col-md-1 hour" id="localTime">
             5:00pm
           </div>
           <!-- col-2 -->
-         <input class="col-md-10 bg-secondary" id="timer">
+          <input class="input-col col-md-10"  placeholder="Add Your Event">
           <!-- col-3 -->
-          <button class="saveBtn col-md-1 bg-primary"></button>
+          <button class="saveBtn col-md-1 bg-primary"><i class="fa-solid fa-floppy-disk fa-xl"></i></button>
         </div>
 
       </div>
