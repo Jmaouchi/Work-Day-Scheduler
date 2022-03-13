@@ -107,8 +107,8 @@ $(".time-block").each(function() {
 
     //saved fourth input to localStorage
     var getValueFour = function(){
-      var valueThreeText = $('#four');
-      console.log(`valueThreText: ${valueThreeText}`);
+      var valueFourText = $('#four');
+      console.log(`valueThreText: ${valueFourText}`);
       var valueFour = localStorage.getItem('four');
       console.log(`value-four: ${valueFour}`);
       document.getElementById('four').textContent = valueFour;
@@ -118,7 +118,7 @@ $(".time-block").each(function() {
     
       function setValueFour (){
         // get the value of the third textarea with setting the 
-      var idValue = $('#three');
+      var idValue = $('#four');
       var valueFour = $(idValue).val();
           console.log(`valueFour: ${valueFour}`);
       localStorage.setItem('four', valueFour);
