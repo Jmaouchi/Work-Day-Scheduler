@@ -17,7 +17,7 @@
 * JQuery
 
 # App Example 
-![](assets/images/Schedule) 
+![](assets/images/Schedule.png) 
 
 # link to the live application
 
