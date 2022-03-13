@@ -17,7 +17,7 @@
 * JQuery
 
 # App Example 
-![](assets/images/Schedule.png) 
+![](assets/images/Untitled_ Mar 13, 2022 2_24 PM.gif) 
 
 # link to the live application
 
