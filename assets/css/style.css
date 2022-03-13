@@ -79,6 +79,6 @@ input::placeholder{
   color: rgb(31, 96, 226);
 }
 
-.fa-solid >*{
-  font-size: 32px
+.fa-solid {
+  color: white;
 ;}
