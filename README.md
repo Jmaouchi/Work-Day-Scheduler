@@ -17,8 +17,8 @@
 * JQuery
 
 # App Example 
-![](assets/images/Untitled_ Mar 13, 2022 2_24 PM.gif) 
-
+![](assets/images/Schedule.png) 
+![](assets/images/Gif.gif) 
 # link to the live application
 
 https://jmaouchi.github.io/Work-Day-Scheduler/
