@@ -1,11 +1,6 @@
-var container = document.querySelectorAll('.container');
-var inputCol = $('input');
-var day = 12;
-// var textEventOne = $('#one');
-
 // set local time using moment.js
 var localTime = $('#currentDay').text();
-var localTime =document.getElementById('currentDay');
+var localTime = document.getElementById('currentDay');
 var currentTime =  moment().format('MM-DD-YYYY  h:mm:ss a');
 
 localTime.innerHTML = currentTime;
@@ -48,7 +43,7 @@ $(".time-block").each(function() {
      //saved first input to localStorage
     var getValueOne = function(){
     var valueOne =  localStorage.getItem('one');
-      console.log(` valusOne: ${valueOne}`);
+      console.log(` valueOne: ${valueOne}`);
       document.getElementById('one').textContent = valueOne;
     }
 
@@ -143,7 +138,7 @@ $(".time-block").each(function() {
         getValueFour()
       
         function setValueFive (){
-          // get the value of the third textarea with setting the 
+        // get the value of the third textarea with setting the 
         var idValue = $('#five');
         var valueFive = $(idValue).val();
             console.log(`valueFive: ${valueFive}`);
